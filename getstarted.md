@@ -1,5 +1,5 @@
 layout: page
 title: "Get Started"
-permalink: /getstarted
+permalink: https://yubertff.github.io/getstarted
 
 #Placeholder
