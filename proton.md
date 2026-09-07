@@ -3,6 +3,7 @@ layout: default
 title: "Proton Versions"
 permalink: /proton/
 ---
+[go back](../)
 
 # Protonup-qt
 To download other proton versions (like cachyos or GE) use the protonup-qt app  
