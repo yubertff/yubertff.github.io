@@ -21,4 +21,4 @@ I recommend using the cachyos proton or the GE proton versions as they offer bet
 To learn more about proton versions and how to get them go to the [Proton page](proton)
 
 Now you should have GD with Geode installed, this is probably enough for most players, you can now install all the mods you want.  
-However if you want to use CBF with the wine workaround proceed onto the [next step.](cbf)
+However if you want to use CBF with the wine workaround proceed onto the [next step.](../cbf)
