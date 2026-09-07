@@ -13,7 +13,7 @@ Make sure you run `usermod -aG input $USER` with sudo after downloading geode an
 Next head into steam, right click on geometry dash, select properties and in launch options add these launch options:
 `WINEDLLOVERRIDES="xinput1_4=n,b" vblank_mode=0 %command%`
 
-The first option WINEDLLOVERRIDES tells the game to load the Geode mod manager **MANDATORY**  
+The first option WINEDLLOVERRIDES tells the game to load the Geode mod manager is **MANDATORY**  
 The next option vblank_mode=0 disables vsync allowing for lower input latency and is completely optiopnal
 
 You will also want to go into the compatibility tab and select a custom version of proton.  
