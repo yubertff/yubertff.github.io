@@ -3,6 +3,7 @@ layout: default
 title: "CBF Setup"
 permalink: /cbf/
 ---
+[go back](../)
 
 # To get CBF working properly requires a couple more steps
 First download Click Between Frames within Geode, make sure wine workaround option is selected and quit the game.  
