@@ -17,7 +17,7 @@ Next head into steam, right click on geometry dash, select properties and in lau
 The first option gamemoderun requires the `gamemode` package, simply install it with your package manager  
 It offers basic game optimizations and is recommended for most games
 
-The second option WINEDLLOVERRIDES tells the game to load the Geode mod manager is **MANDATORY**  
+The second option WINEDLLOVERRIDES which tells the game to load the Geode mod manager is **MANDATORY**  
 The next option vblank_mode=0 disables vsync allowing for lower input latency and is completely optiopnal
 
 You will also want to go into the compatibility tab and select a custom version of proton.  
