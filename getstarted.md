@@ -9,17 +9,12 @@ permalink: /getstarted/
 First thing you want to do is buy and download GD on steam, this guide will not account for pirated versions of the game
 
 Next launch and then quit the game and head to [geode-sdk.org](https://geode-sdk.org) and download Geode  
-Make sure you run `usermod -aG input $USER` with sudo after downloading geode and **RESTART YOUR PC** otherwise the changes won't apply
+If you want CBF make sure you run `usermod -aG input $USER` with sudo after downloading geode and **RESTART YOUR PC** otherwise the changes won't apply
 
 Next head into steam, right click on geometry dash, select properties and in launch options add these launch options:
-`gamemoderun WINEDLLOVERRIDES="xinput1_4=n,b" vblank_mode=0 %command%`
+`WINEDLLOVERRIDES="xinput1_4=n,b" %command%`
 
-The first option gamemoderun requires the `gamemode` package, simply install it with your package manager  
-It offers basic game optimizations and is recommended for most games
-
-The second option WINEDLLOVERRIDES which tells the game to load the Geode mod manager is **MANDATORY**  
-
-The next option vblank_mode=0 disables vsync allowing for lower input latency and is completely optiopnal
+The option WINEDLLOVERRIDES tells the game to load the Geode mod loader and is **MANDATORY**  
 
 You will also want to go into the compatibility tab and select a custom version of proton.  
 I recommend using the cachyos proton or the GE proton versions as they offer better optimization.  
