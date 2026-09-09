@@ -5,7 +5,10 @@ permalink: /tweaks/
 ---
 [go back](../)
 
-This last section will cover will cover why any other tweaks are just pointless  
+This last section will cover will cover why any other tweaks are just pointless except maybe gamemode  
+
+The launch option `gamemoderun` requires the gamemode package, simply install it with your package manager  
+It offers basic game optimizations and is recommended for most games
 
 Most of the stuff that can be optimized already has been by custom proton versions and kernels  
 If you use the cachyos kernel and proton you have done as much as can be done for your input latency and performance  
