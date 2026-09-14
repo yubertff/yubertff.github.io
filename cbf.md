@@ -16,5 +16,5 @@ CBF has a problem preloading the library needed for it to work
 Also note if it takes over 5 seconds to load a level, CBF might fail to work
 
 ## General CBF info
-Make sure Wine workaround is on **EXCEPT** if you are on Wayland in that case it shouldn't matter if using the `PROTON_ENABLE_WAYLAND=1 WINEDLLOVERRIDES="xinput1_4=n,b" %command` launch options  
+Make sure Wine workaround is on and if using wayland use the `PROTON_ENABLE_WAYLAND=1 WINEDLLOVERRIDES="xinput1_4=n,b" %command` launch options  
 If your clicks are registering twice or not at all, either restart the game or you missed a step
