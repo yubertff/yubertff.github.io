@@ -11,6 +11,9 @@ On windows simply open [this](steam://open/console) link
 
 # Download the 2.208 patch
 Next enter this command in the console `download_depot 322170 322171 3816559102876907245`  
+
+# Edit ACF file
+Make sure to quit steam before doing this step!
 Now make sure to update the ACF file for geometry dash so the game does not auto update  
 Head to `~/.local/share/Steam/steamapps` and edit the 322170.acf to say **"StateFlags"		"4"**  
 On windows the path will be `(install_location)/Steam/steamapps `
