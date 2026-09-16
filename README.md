@@ -4,3 +4,4 @@ This guide will teach you how to run GD on Linux with Geode and some tweaks to h
 ## [Proton Versions](proton)
 ## [Proper CBF Setup](cbf)
 ## [Tweaks](tweaks)
+## [Downpatch](downpatch)
